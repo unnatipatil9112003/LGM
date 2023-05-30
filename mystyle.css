@@ -1,0 +1,133 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: inherit;
+}
+
+body {
+
+    height: 50%;
+    background-color: rgb(200, 120, 234);
+
+}
+
+h1{
+
+    font-size: 3rem;
+    font-weight: 1000;
+    margin:  1rem 0 3rem;
+    text-align:center;
+    color: rgb(23, 23, 31);
+
+}
+
+.heading{
+
+    font-weight: 1000;
+    color: rgb(29, 25, 21);
+}
+
+.input_div{
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.input_div .input {
+
+    padding: 0.5rem 1rem;
+    height:50px;
+    outline:none;
+    border:none;
+    background-color:#fdfbfb;
+    width:450px;
+    font-size:1.15rem;
+    margin:0.25rem;
+    border-radius: 25px;
+}
+
+.addButton{
+
+    height:50px;
+    width:50px;
+    border-radius:25px;
+    outline:none;
+    border:none;
+    background-color:white;
+    color:#fff;
+    margin:0.25rem;
+    background-color:rgb(9, 3, 3);
+    cursor:pointer;
+    
+}
+
+.addButton:hover{
+
+    opacity: 0.7;
+}
+
+.container{
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin-top: 2rem;
+
+}
+
+.item{
+
+    padding: 0.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom:4px solid #fff;
+
+}
+
+.item_input {
+
+    background:none;
+    outline:none;
+    color:rgb(27, 27, 233);
+    border:none;
+    width: 350px;
+    font-size: 1.4rem; 
+
+}
+
+.editButton{
+
+    font-size: 1.4rem;
+    margin: 0 0.5rem;
+    font-family: 'Bebas Neue', cursive;
+    background: none;
+    outline:none;
+    color:rgb(19, 15, 15);
+    border:none;
+    cursor: pointer;
+
+
+}
+
+.removeButton{
+
+    font-size: 1.4rem;
+    margin: 0 0.5rem;
+    font-family: 'Bebas Neue', cursive;
+    background: none;
+    outline:none;
+    color:rgb(32, 29, 34);
+    border:none;
+    cursor: pointer;
+    
+}
+
+.plus{
+
+    
+    font-weight: 800;
+}
